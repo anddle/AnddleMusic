@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">安豆音乐</string>
+    <string name="play_list">播放列表</string>
+    <string name="add_to_playlist">添加</string>
+    <string name="duration">播放时长: %s</string>
+    <string name="no_song">无歌曲</string>
+</resources>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorContract"
+    android:padding="@dimen/widget_margin"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/image_thumb"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:src="@mipmap/default_cover"
+        android:scaleType="fitCenter"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/music_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:singleLine="true"
+            android:layout_margin="5dp"
+            android:text="@string/no_song"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/play_btn2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:background="@mipmap/ic_play"
+                />
+
+            <Button
+                android:id="@+id/pre_btn2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/play_btn2"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:background="@mipmap/ic_pre"
+                />
+
+            <Button
+                android:id="@+id/next_btn2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/play_btn2"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:background="@mipmap/ic_next"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

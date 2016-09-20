@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AnddleMusic</string>
+    <string name="search_path">music</string>
+    <string name="add_to_playlist">Add</string>
+    <string name="play_list">Play list</string>
+    <string name="duration">duration: %s</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="no_song">No song</string>
+</resources>
